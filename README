@@ -1,0 +1,19 @@
+Mt.pm is a perl module providing object-like wrapping of the Unix
+'mt' command (tape manager). It doesn't use any library calls, but
+rather makes system() calls for properly formatted 'mt' commands.
+
+The module requires perl 5.6.0 (it uses 'our' pragma).
+
+Installation as usual:
+
+	perl Makefile.PL
+	make
+	make test
+	make install
+
+Documentation is contained within the module.
+
+Copyright (C) 2001 Roman M. Parparov. <romm@empire.tau.ac.il>
+
+This library is free software; you can redistribute it and/or
+modify it under the same terms as Perl itself.
